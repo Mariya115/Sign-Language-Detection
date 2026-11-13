@@ -1,0 +1,111 @@
+{
+  "classes": [
+    "ನಮಸ್ಕಾರ",
+    "ಹೌದು",
+    "ಇಲ್ಲ",
+    "ಸರಿ",
+    "ಮುಗಿದಿದೆ"
+  ],
+  "evaluation": "preliminary_single_session",
+  "preliminary_evaluation": true,
+  "split_strategy": "stratified_random_single_session",
+  "unique_sessions": 1,
+  "duplicate_samples_removed": 0,
+  "train_samples": 1061,
+  "validation_samples": 225,
+  "test_samples": 225,
+  "train_class_counts": [
+    211,
+    213,
+    212,
+    212,
+    213
+  ],
+  "validation_class_counts": [
+    45,
+    45,
+    45,
+    45,
+    45
+  ],
+  "test_class_counts": [
+    45,
+    45,
+    45,
+    45,
+    45
+  ],
+  "test_sessions": [
+    "session-1"
+  ],
+  "metrics": {
+    "accuracy": 0.9511111111111111,
+    "precision_macro": 0.9556954156954157,
+    "recall_macro": 0.9511111111111111,
+    "f1_macro": 0.9519151193415981,
+    "confusion_matrix": [
+      [
+        44,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        43,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        44,
+        1,
+        0
+      ],
+      [
+        3,
+        0,
+        0,
+        42,
+        0
+      ],
+      [
+        4,
+        0,
+        0,
+        0,
+        41
+      ]
+    ],
+    "per_class": {
+      "ನಮಸ್ಕಾರ": {
+        "precision": 0.8461538461538461,
+        "recall": 0.9777777777777777,
+        "f1": 0.9072164948453608
+      },
+      "ಹೌದು": {
+        "precision": 1.0,
+        "recall": 0.9555555555555556,
+        "f1": 0.9772727272727273
+      },
+      "ಇಲ್ಲ": {
+        "precision": 0.9777777777777777,
+        "recall": 0.9777777777777777,
+        "f1": 0.9777777777777777
+      },
+      "ಸರಿ": {
+        "precision": 0.9545454545454546,
+        "recall": 0.9333333333333333,
+        "f1": 0.9438202247191012
+      },
+      "ಮುಗಿದಿದೆ": {
+        "precision": 1.0,
+        "recall": 0.9111111111111111,
+        "f1": 0.9534883720930233
+      }
+    }
+  }
+}
